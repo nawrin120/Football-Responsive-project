@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* --------fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+</style>
+ /* common style  */
+ body{
+    font-family: 'Poppins', sans-serif;
+  
+ }
+ /* header section */
+ .container{
+     background-color: #2D25A0;
+     /* width:1050px; */
+     width: 100%;
+     height:677px;
+
+ }
+ .top-banner{
+     width: 50%;
+ }
+
+.top-text h1{
+    color: white;
+    font-weight: bold;
+}
+
+/* button style */
+.button button{
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: flex-start;
+    color: #FFFFFF;;
+    background-color: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+}
+.button-text{
+    margin-right: 16px;
+}
+/* ---------------
+card layers
+---------------- */
+.cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color:  #FFFFFF;
+    padding: 20px 210px 0px 180px;
+}
+.card{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.card--image{
+    width: 300px;
+    height: 256px;
+    display: block;
+    position: static;
+    padding: 15px 15px;
+    padding-left: 15px;
+}
+.card--content{
+    padding: 16px 15px 33px 15px;
+}
+.card--content h1{
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 28px;
+    color:  #18191F;
+    font-family: 'Poppins', sans-serif;
+}
+.card--content p{
+    width: 300px;
+    top: 32.47%;
+    line-height: 26px;
+    bottom: 0%;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------
+footer styles start
+-------------------------- */
+footer{
+    margin-top: 158px;
+    margin-bottom: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content{
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 1050px;
+    display: flex;
+    padding-bottom: 63px;
+}
+.footer-top img{
+    width: 483.87px;
+}
+.socials {
+    margin: 20px 0px;
+    
+}
+.fab{
+    font-size: 30px;
+    color: #969BAB;
+    
+}
+.footer-bottom p{
+    font-size: 25px;
+    font-family:'Poppins', sans-serif;
+}
+.socials .fab{
+    padding-right: 14px;
+}
+/* ------------footer style end -----------------------*/

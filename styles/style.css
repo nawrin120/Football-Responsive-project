@@ -87,6 +87,94 @@ card layers
     margin: 10px 0px;
     font-family: 'Poppins', sans-serif;
 }
+/*-------- mobile devices start------- */
+/* @media only screen and (max-width:688px){
+    .cards{
+        background-color:white;
+        grid-template-columns: repeat(1,  1fr);
+        justify-content: center;
+    }
+    .card{
+        flex-direction:column;
+    }
+}
+/* mobile devices end */
+
+/* for tablet  */ */
+
+
+ /* video section starts */
+ .video{
+     height: 100vh;
+ }
+ .video-background{
+     position: absolute;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1;
+ }
+ @media (min-aspect-ratio:16/9)
+ {
+     .video-background{
+         width: 100%;
+         height: auto;
+     }
+ }
+ @media (max-aspect-ratio:16/9)
+ {
+     .video-background{
+         width:auto;
+         height:;
+     }
+ }
+ .video-button{
+     position: relative;
+     text-align: center;
+     font-family: monospace;
+     color:darkviolet;
+     top: 150px;
+ }
+ .video-button h1{
+     font-size: 80px;
+     font-weight: 200;
+     letter-spacing: 5px;
+     margin-bottom: 140px;
+ }
+ .click-buttton{
+     font-size:30px;
+     color:rgb(21, 72, 8)139, 46);
+     margin:5px;
+     padding: 7px 12px;
+     text-decoration: none;
+     border: 2px solid  rgb(6, 63, 6);
+     border-radius: 25px;
+     background-color: darkcyan;
+}
+ /* video section end  */
+ /* form */
+ .form{
+     padding-left: 10%;
+     margin-top: 5%;
+     margin-bottom: 15%;
+     font-size: 30px;
+ }
+ .form h2{
+     color: darkblue;
+ }
+ .form a{
+     text-decoration: none;
+     font-size:30px;
+     color:rgb(21, 72, 8)139, 46);
+     margin:5px;
+     padding: 7px 12px;
+     text-decoration: none;
+     border: 2px solid  rgb(6, 63, 6);
+     border-radius: 25px;
+     background-color: darkcyan;
+ }
+
 /* ----------------------
 footer styles start
 -------------------------- */
@@ -96,6 +184,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 800px;
 }
 .footer-content{
     align-items: center;
@@ -123,5 +212,20 @@ footer{
 }
 .socials .fab{
     padding-right: 14px;
+}
+/* mobile devices responsive */
+@media only screen and (max-width:688px) {
+    .footer-content .img{
+        background-color: white;
+        /* grid-template-columns: repeat(1,1fr); */
+        /* justify-content: center; */
+        flex-direction: column;
+        width: 10px;
+        padding: 5px;
+    }
+    .footer-top img{
+        width:300px;
+        justify-content: center;
+    }
 }
 /* ------------footer style end -----------------------*/
